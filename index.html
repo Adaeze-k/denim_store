@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Minimal Fashion Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+        <!--using FontAwesome-->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            <!--top-------------------------->
+          <div class="top">
+            <!--text-logo------------------->
+            <a href="#" class="text-logo">denim collection</a>
+          </div>
+            <!--left------------------------->
+          <div class="left">
+            <!--img-logo--------------->
+            <img class="logo" src="images/logo.png">  
+          </div>
+            <!--center------------------------->
+          <div class="center">
+           
+           <!--menu---------->
+           <div class="menu ">
+           <ul>
+           <li><a href="#">Home</a></li> 
+           <li><a href="#">About</a></li> 
+           <li><a href="#">Conatct Us</a></li> 
+           <li><a href="#">Team</a></li> 
+           <li><a href="#">Blogs</a></li> 
+            
+            
+           </ul>
+           </div>
+           <!--slider-container--------------->
+           <div class="slider-conatiner">
+            <input type="radio" name="r" id="r1" checked>
+           <input type="radio" name="r" id="r2" >
+           <input type="radio" name="r" id="r3" >
+           <input type="radio" name="r" id="r4" >
+           <!--1------------->
+           <div class="slide slide1 slide-im1"></div>
+           <!--2------------->
+           <div class="slide slide-im2"></div>
+           <!--3------------->
+           <div class="slide slide-im3"></div>
+           <!--4------------->
+           <div class="slide slide-im4"></div>
+           
+           
+           </div>
+          <!--slides-button-->
+          <div class="buttons">
+          <!--1-------------------------------->
+           <label for="r1">
+          <div  class="btn btn-01 ">
+          <!--slider-number--> 
+          <p>01</p>
+           
+          <div class="btn-img btn-img01 active-btn"></div>
+          <h1>Vintage Slim-high </h1>
+          <p>12 Picture</p>
+          <p>6 colors</p>
+            
+          </div>
+           </label>
+          <!--2-------------------------------->
+           <label for="r2"> 
+          <div  class="btn btn-02">
+          <!--slider-number--> 
+          <p>02</p>
+          <div class="btn-img btn-img02"></div>
+          <h1>Top - Bottom</h1>
+          <p>8 Picture</p>
+          <p>3 colors</p>
+            
+          </div>
+            </label>
+          <!--3-------------------------------->
+           <label for="r3">
+          <div  class="btn btn-03">
+          <!--slider-number--> 
+          <p>03</p>
+          <div class="btn-img btn-img03"></div>
+          <h1>Assymetrical Jeans</h1>
+          <p>12 Picture</p>
+          <p>5 colors</p>
+            
+          </div>
+            </label>
+          <!--4-------------------------------->
+           <label for="r4">
+          <div  class="btn btn-04">
+          <!--slider-number--> 
+          <p>04</p>
+          <div class="btn-img btn-img04"></div>
+          <h1>Leah Lace-back</h1>
+          <p>5 Picture</p>
+          <p>2 colors</p>
+            
+          </div>
+            </label>
+           
+           
+          </div>
+          </div>
+            <!--right------------------------->
+          <div class="right">
+            <!--menu-bar-icon------------------->
+           <div class="toggle"></div>
+            
+          </div>
+            <!--bottom------------------------->
+          <div class="bottom">
+           <!--copyright--------->
+           <p class="copyright">Copyright 2022</p>
+           <!--bottom-menu-------->
+           <ul class="b-menu">
+           <li><a href="#">BLOG</a></li> 
+           <li><a href="#">MODEL</a></li> 
+           <li><a href="#">COMPANY</a></li> 
+           <li><a href="#">CONTACT</a></li> 
+           </ul>
+           <!--language----------->
+           <p class="language">EN</p>
+            
+           </div>
+           
+           
+           </section>
+           
+           
+           <!--ADDING-Jquery-Link-->
+          <script type="text/javascript" src="js/Jquery.js"></script>
+          <script type="text/javascript">
+              $(document).ready(function(){
+                $('.toggle ').click(function(){
+                $('.toggle').toggleClass('active')
+                $('.menu').toggleClass('active')
+                })
+            });
+          </script>
+       
+    </body>
+</html>
